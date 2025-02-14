@@ -43,7 +43,7 @@
 
 ## Инструкция по запуску
 1. Склонируйте или скачайте проект.
-2. Откройте проект в Visual Studio или другой IDE для .NET.
+2. Откройте проект в Visual Studio или другой IDE для .NET (начиная 8.0).
 3. Установите пакет [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection) через NuGet.
 4. Соберите и запустите проект.
 5. Следуйте инструкциям в консоли для взаимодействия с системой.
