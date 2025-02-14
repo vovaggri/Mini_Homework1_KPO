@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini_Homework1_KPO", "Mini_Homework1_KPO\Mini_Homework1_KPO.csproj", "{0DA83C35-482D-4696-8EF9-4CB1C85AD5ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW1.Domain", "HW1.Domain\HW1.Domain.csproj", "{3A93A40E-C84D-4162-B2ED-D100B1163865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{0DA83C35-482D-4696-8EF9-4CB1C85AD5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DA83C35-482D-4696-8EF9-4CB1C85AD5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DA83C35-482D-4696-8EF9-4CB1C85AD5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A93A40E-C84D-4162-B2ED-D100B1163865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A93A40E-C84D-4162-B2ED-D100B1163865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A93A40E-C84D-4162-B2ED-D100B1163865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A93A40E-C84D-4162-B2ED-D100B1163865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

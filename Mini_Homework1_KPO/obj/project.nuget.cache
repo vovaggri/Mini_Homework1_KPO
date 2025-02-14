@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jmpmZpFdiTA=",
+  "dgSpecHash": "IXfwYYjFbCc=",
   "success": true,
   "projectFilePath": "/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/Mini_Homework1_KPO/Mini_Homework1_KPO.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/vladimirgrigoryev/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.2/microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
+    "/Users/vladimirgrigoryev/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.2/microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
