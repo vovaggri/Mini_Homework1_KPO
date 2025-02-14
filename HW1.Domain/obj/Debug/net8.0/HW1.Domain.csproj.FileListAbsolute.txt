@@ -1,0 +1,12 @@
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/bin/Debug/net8.0/HW1.Domain.deps.json
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/bin/Debug/net8.0/HW1.Domain.dll
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/bin/Debug/net8.0/HW1.Domain.pdb
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/obj/Debug/net8.0/HW1.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/obj/Debug/net8.0/HW1.Domain.AssemblyInfoInputs.cache
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/obj/Debug/net8.0/HW1.Domain.AssemblyInfo.cs
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/obj/Debug/net8.0/HW1.Domain.csproj.CoreCompileInputs.cache
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/obj/Debug/net8.0/HW1.Domain.sourcelink.json
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/obj/Debug/net8.0/HW1.Domain.dll
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/obj/Debug/net8.0/refint/HW1.Domain.dll
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/obj/Debug/net8.0/HW1.Domain.pdb
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/obj/Debug/net8.0/ref/HW1.Domain.dll
