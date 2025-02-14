@@ -63,6 +63,10 @@ public static class Menu
         }
     }
 
+    /// <summary>
+    /// Menu with instruction for adding animals.
+    /// </summary>
+    /// <param name="zoo"></param>
     private static void AddAnimalMenu(Zoo zoo)
     {
         Console.WriteLine("\n Choose a type of animal for adding:");
@@ -198,6 +202,10 @@ public static class Menu
         Console.ReadLine();
     }
 
+    /// <summary>
+    /// Menu with instruction for adding animals.
+    /// </summary>
+    /// <param name="zoo"></param>
     private static void AddThingMenu(Zoo zoo)
     {
         Console.WriteLine("\n Choose a type of thing:");

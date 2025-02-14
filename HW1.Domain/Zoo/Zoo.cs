@@ -99,14 +99,14 @@ public class Zoo
         Console.WriteLine("\nInventory of animals:");
         foreach (var animal in Animals)
         {
-            Console.WriteLine($"\nName: {animal.Name}, Number: {animal.Number}");
+            Console.WriteLine($"Name: {animal.Name}, Number: {animal.Number}");
         }
         
         Console.WriteLine("--------------------------");
         Console.WriteLine("\nInventory of things:");
         foreach (var thing in Things)
         {
-            Console.WriteLine($"\nName: {thing.Name}, Number: {thing.Number}");
+            Console.WriteLine($"Name: {thing.Name}, Number: {thing.Number}");
         }
     }
 }
