@@ -1,6 +1,6 @@
 ﻿namespace HW1.Domain;
 
-public interface IAnimal
+public interface IAlive
 {
     int Food { get; set; }
 }

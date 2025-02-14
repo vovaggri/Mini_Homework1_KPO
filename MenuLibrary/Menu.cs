@@ -78,29 +78,29 @@ public static class Menu
         Console.Write("Enter a number of type: ");
         string option = Console.ReadLine();
 
-        Animal animal;
+        Alive alive;
         
         switch (option)
         {
             case "1":
                 Console.WriteLine("Enter the name of monkey: ");
                 string nameMonkey = Console.ReadLine();
-                animal = new Monkey(nameMonkey ?? "monkey");
+                alive = new Monkey(nameMonkey ?? "monkey");
                 break;
             case "2":
                 Console.WriteLine("Enter the name of rabbit: ");
                 string nameRabbit = Console.ReadLine();
-                animal = new Rabbit(nameRabbit ?? "rabbit");
+                alive = new Rabbit(nameRabbit ?? "rabbit");
                 break;
             case "3":
                 Console.WriteLine("Enter the name of tiger: ");
                 string nameTiger = Console.ReadLine();
-                animal = new Tiger(nameTiger ?? "tiger");
+                alive = new Tiger(nameTiger ?? "tiger");
                 break;
             case "4":
                 Console.WriteLine("Enter the name of wolf: ");
                 string nameWolf = Console.ReadLine();
-                animal = new Wolf(nameWolf ?? "wolf");
+                alive = new Wolf(nameWolf ?? "wolf");
                 break;
             default:
                 Console.WriteLine("Invalid option");
@@ -112,7 +112,7 @@ public static class Menu
         Console.Write("Enter amount of food (kg/day): ");
         if (int.TryParse(Console.ReadLine(), out int food))
         {
-            animal.Food = food;
+            alive.Food = food;
         }
         else 
         { 
@@ -125,7 +125,7 @@ public static class Menu
         Console.Write("Enter the age of animal: ");
         if (int.TryParse(Console.ReadLine(), out int age))
         {
-            animal.Age = age;
+            alive.Age = age;
         }
         else
         {
@@ -138,7 +138,7 @@ public static class Menu
         Console.Write("Enter the temperature of animal: ");
         if (double.TryParse(Console.ReadLine(), out double temperature))
         {
-            animal.BodyTemperature = temperature;
+            alive.BodyTemperature = temperature;
         }
         else
         {
@@ -153,7 +153,7 @@ public static class Menu
         {
             if (level >= 1 && level <= 10)
             {
-                animal.ActivityLevel = level;
+                alive.ActivityLevel = level;
             }
             else
             {
@@ -171,7 +171,7 @@ public static class Menu
             return;
         }
 
-        if (animal is Herbo herb)
+        if (alive is Herbo herb)
         {
             Console.Write("Enter the level of kindness of the herb: ");
             if (int.TryParse(Console.ReadLine(), out int kindness))
@@ -197,7 +197,7 @@ public static class Menu
             }
         }
         
-        zoo.AddAnimal(animal);
+        zoo.AddAnimal(alive);
         Console.Write("Touch enter to return to Main menu");
         Console.ReadLine();
     }

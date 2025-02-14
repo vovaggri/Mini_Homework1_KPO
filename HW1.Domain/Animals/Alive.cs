@@ -1,6 +1,6 @@
 namespace HW1.Domain.Animals;
 
-public abstract class Animal : IAnimal, IInventory
+public abstract class Alive : IAlive, IInventory
 {
     public string Name { get; protected init; }
     public int Food { get; set; }

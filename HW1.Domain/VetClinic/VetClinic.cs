@@ -4,24 +4,24 @@ namespace HW1.Domain.VetClinic;
 
 public class VetClinic : IVetClinic
 {
-    public bool CheckHealth(Animal animal)
+    public bool CheckHealth(Alive alive)
     {
-        int score = CalculateHealthScore(animal);
-        Console.WriteLine($"Health check: {animal.Type}, {animal.Name}: {score}");
+        int score = CalculateHealthScore(alive);
+        Console.WriteLine($"Health check: {alive.Type}, {alive.Name}: {score}");
         // If score >= 6, the animal is healthy.
         return score >= 6;
     }
 
-    private int CalculateHealthScore(Animal animal)
+    private int CalculateHealthScore(Alive alive)
     {
         int score = 0;
         
         // Age (the best age range is 2...8).
-        if (animal.Age >= 2 && animal.Age <= 8)
+        if (alive.Age >= 2 && alive.Age <= 8)
         {
             score += 3;
         }
-        else if (animal.Age < 2)
+        else if (alive.Age < 2)
         {
             score += 2;
         }
@@ -31,7 +31,7 @@ public class VetClinic : IVetClinic
         }
         
         // Temperature (the best range is 38-39).
-        if (animal.BodyTemperature >= 38 && animal.BodyTemperature <= 39)
+        if (alive.BodyTemperature >= 38 && alive.BodyTemperature <= 39)
         {
             score += 2;
         }
@@ -41,7 +41,7 @@ public class VetClinic : IVetClinic
         }
         
         // Activity Level (range: 1...10; >=5 is good).
-        if (animal.ActivityLevel >= 5)
+        if (alive.ActivityLevel >= 5)
         {
             score += 2;
         }
