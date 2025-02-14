@@ -4,5 +4,5 @@ namespace HW1.Domain;
 
 public interface IVetClinic
 {
-    bool CheckHealth(Alive alive);
+    bool CheckHealth(Animal animal);
 }

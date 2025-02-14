@@ -8,7 +8,7 @@ public class Zoo
     private readonly IVetClinic _vetClinic;
     private readonly IInventoryNumberGenerator _inventoryGenerator;
     
-    public List<Alive> Animals { get; } = new List<Alive>();
+    public List<Animal> Animals { get; } = new List<Animal>();
     public List<Thing> Things { get; } = new List<Thing>();
 
     public Zoo(IVetClinic vetClinic, IInventoryNumberGenerator inventoryGenerator)
@@ -28,19 +28,19 @@ public class Zoo
     /// <summary>
     /// Adding animal with checking health.
     /// </summary>
-    /// <param name="alive"></param>
-    public void AddAnimal(Alive alive)
+    /// <param name="animal"></param>
+    public void AddAnimal(Animal animal)
     {
-        alive.Number = _inventoryGenerator.GetNextInventoryNumber();
+        animal.Number = _inventoryGenerator.GetNextInventoryNumber();
 
-        if (_vetClinic.CheckHealth(alive))
+        if (_vetClinic.CheckHealth(animal))
         {
-            Animals.Add(alive);
-            Console.WriteLine($"Animal {alive.Name} added successfully!");
+            Animals.Add(animal);
+            Console.WriteLine($"Animal {animal.Name} added successfully!");
         }
         else
         {
-            Console.WriteLine($"Animal {alive.Name} failed checking health and wasn't added!");
+            Console.WriteLine($"Animal {animal.Name} failed checking health and wasn't added!");
         }
     }
 
