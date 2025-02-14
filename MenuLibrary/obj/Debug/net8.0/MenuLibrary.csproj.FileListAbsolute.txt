@@ -1,0 +1,16 @@
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/bin/Debug/net8.0/MenuLibrary.deps.json
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/bin/Debug/net8.0/MenuLibrary.dll
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/bin/Debug/net8.0/MenuLibrary.pdb
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/bin/Debug/net8.0/HW1.Domain.dll
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/bin/Debug/net8.0/HW1.Domain.pdb
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/MenuLibrary.csproj.AssemblyReference.cache
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/MenuLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/MenuLibrary.AssemblyInfoInputs.cache
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/MenuLibrary.AssemblyInfo.cs
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/MenuLibrary.csproj.CoreCompileInputs.cache
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/MenuLibrary.sourcelink.json
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/MenuLibr.7E56DCD1.Up2Date
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/MenuLibrary.dll
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/refint/MenuLibrary.dll
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/MenuLibrary.pdb
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/obj/Debug/net8.0/ref/MenuLibrary.dll
