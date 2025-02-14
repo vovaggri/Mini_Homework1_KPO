@@ -2,8 +2,10 @@ namespace HW1.Domain.Animals;
 
 public class Wolf : Predator
 {
-    public Wolf()
+    public Wolf(string name)
     {
-        Name = "Wolf";
+        Name = name;
     }
+    
+    public override string Type => "Wolf";
 }

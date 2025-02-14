@@ -19,3 +19,5 @@
 /Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/Mini_Homework1_KPO/obj/Debug/net8.0/Mini_Homework1_KPO.pdb
 /Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/Mini_Homework1_KPO/obj/Debug/net8.0/Mini_Homework1_KPO.genruntimeconfig.cache
 /Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/Mini_Homework1_KPO/obj/Debug/net8.0/ref/Mini_Homework1_KPO.dll
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/Mini_Homework1_KPO/bin/Debug/net8.0/MenuLibrary.dll
+/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/Mini_Homework1_KPO/bin/Debug/net8.0/MenuLibrary.pdb

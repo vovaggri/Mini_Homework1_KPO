@@ -4,8 +4,10 @@ namespace HW1.Domain;
 
 public class Monkey : Herbo
 {
-    public Monkey()
+    public Monkey(string name)
     {
-        Name = "Monkey";
+        Name = name;
     }
+    
+    public override string Type => "Monkey";
 }

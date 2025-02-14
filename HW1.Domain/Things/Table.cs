@@ -2,8 +2,8 @@ namespace HW1.Domain.Things;
 
 public class Table : Thing
 {
-    public Table()
+    public Table(string name)
     {
-        Name = "Table";
+        Name = name;
     }
 }

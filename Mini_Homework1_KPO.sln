@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini_Homework1_KPO", "Mini_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW1.Domain", "HW1.Domain\HW1.Domain.csproj", "{3A93A40E-C84D-4162-B2ED-D100B1163865}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuLibrary", "MenuLibrary\MenuLibrary.csproj", "{F1507108-7120-46B5-9726-E4B9259D08DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3A93A40E-C84D-4162-B2ED-D100B1163865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A93A40E-C84D-4162-B2ED-D100B1163865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A93A40E-C84D-4162-B2ED-D100B1163865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1507108-7120-46B5-9726-E4B9259D08DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1507108-7120-46B5-9726-E4B9259D08DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1507108-7120-46B5-9726-E4B9259D08DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1507108-7120-46B5-9726-E4B9259D08DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -9,6 +9,7 @@
       "Mini_Homework1_KPO/1.0.0": {
         "dependencies": {
           "HW1.Domain": "1.0.0",
+          "MenuLibrary": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "9.0.2"
         },
         "runtime": {
@@ -41,6 +42,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "MenuLibrary/1.0.0": {
+        "dependencies": {
+          "HW1.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MenuLibrary.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -65,6 +77,11 @@
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
     },
     "HW1.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MenuLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

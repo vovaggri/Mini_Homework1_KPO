@@ -2,8 +2,10 @@ namespace HW1.Domain.Animals;
 
 public class Rabbit : Herbo
 {
-    public Rabbit()
+    public Rabbit(string name)
     {
-        Name = "Rabbit";
+        Name = name;
     }
+    
+    public override string Type => "Rabbit";
 }

@@ -2,6 +2,6 @@ using HW1.Domain.Animals;
 
 namespace HW1.Domain;
 
-public class Predator : Animal
+public abstract class Predator : Animal
 {
 }

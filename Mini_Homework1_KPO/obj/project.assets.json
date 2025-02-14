@@ -46,6 +46,19 @@
         "runtime": {
           "bin/placeholder/HW1.Domain.dll": {}
         }
+      },
+      "MenuLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "HW1.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MenuLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MenuLibrary.dll": {}
+        }
       }
     }
   },
@@ -114,11 +127,17 @@
       "type": "project",
       "path": "../HW1.Domain/HW1.Domain.csproj",
       "msbuildProject": "../HW1.Domain/HW1.Domain.csproj"
+    },
+    "MenuLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MenuLibrary/MenuLibrary.csproj",
+      "msbuildProject": "../MenuLibrary/MenuLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "HW1.Domain >= 1.0.0",
+      "MenuLibrary >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 9.0.2"
     ]
   },
@@ -149,6 +168,9 @@
           "projectReferences": {
             "/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/HW1.Domain.csproj": {
               "projectPath": "/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/HW1.Domain/HW1.Domain.csproj"
+            },
+            "/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/MenuLibrary.csproj": {
+              "projectPath": "/Users/vladimirgrigoryev/RiderProjects/Mini_Homework1_KPO/MenuLibrary/MenuLibrary.csproj"
             }
           }
         }
